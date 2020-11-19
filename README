@@ -1,2 +1,46 @@
-# Adversarial Machine Learning for Network Classification\
-This project use Pycaret library for classifing the Browser, Operation-System, Application of internet network traffic.
+# Adversarial Machine Learning for Network Classification
+
+This data-science project uses Pycaret python library for classification task
+
+our task...
+# BOA tuple Classification
+
+B - Browser, O - Operation-System, A - Application
+
+of encrypted internet network traffic.
+
+
+
+## Dataset
+
+the dataset was collected in Ariel University Cyber Center.
+the sampels (records) are .pcap files which represent a wireshark recording file of network traffic packets. 
+
+samples collection drive link: https://drive.google.com/drive/folders/0Bynah7-gERTldG5UZ2NhNkJMMlk
+
+the classification target of each sample labeled as the file name.
+
+
+
+those samples has been featured to extract a CSV file of chosen network traffic features.
+features extraction also made by Ariel University Cyber Center and can be found at Jhonathan Muehlstien: https://github.com/JonMuehlst/pcap-feature-extractor
+
+
+all dataset values are marked (known) and numeric, also the < Browser, Operation-System, Application > (BOA Tuple) is, and in represet the tuple by first digit for OS, the two after for Browser program, and the two last for internet Application. tuple label in the last column in the file.
+
+
+
+## Tools
+
+Python3, Pycaret livrary, Pandas library. based on IPython files
+
+
+# Directories
+
+Dataset folder contains the CSV files from Jhonathan M. research. and several versions that was produced while this research.
+
+Extra_Matirials folder includes PDF reports of additional expiriments that was made while research, and tables about the features that was used.
+
+ML_Classification is the main folder which contains several IPython Notebooks that represent steps using Pycaret and Pandas libraries for Machine-Learning Classification.
+
+NN_Classification is advanced step in this project, contains Python3 project using Keras (SKlearn) library and the ability of Convolution Neural Network to classifing the BOA Tuple out of Size histogram samples.
