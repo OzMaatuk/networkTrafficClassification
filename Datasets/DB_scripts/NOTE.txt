@@ -1,0 +1,14 @@
+workflow:
+
+data files suppose to be in folders (directories need to be exist eralier)
+/os_dataset
+/browser_dataset
+/app_dataset
+/tuple_dataset
+and the source data file called
+samples_25.2.16_all_features_triple.CSV
+is in
+../
+
+then activate scropts as follow:
+translateLabelsScript-> -> convert_CSV_labels -> convert_CSV_types-> remove_features -> rnd_bln_split_CSV_local
