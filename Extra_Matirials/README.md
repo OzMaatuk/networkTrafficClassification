@@ -1,6 +1,6 @@
-EXTRA MATIRIALS
+EXTRA MATERIALS
 
-Here you can see some extra expiriments documentaed as PDF files.
-first part of those expirimets intendent to check pycaret abilities (blended model, ensembled)
-second part is extra manipulations over the features groups to find the most optimized features.
-in addtion, there is two Excel tables that includes more detailes about the features used in the research.
+Here you can see some extra experiments documented as PDF files.
+the first part of that experiments intended to check Pycaret abilities (blended model, ensembled)
+the second part is extra manipulations over the features groups to find the most optimized features.
+also, two Excel tables include more details about the features used in the research.
